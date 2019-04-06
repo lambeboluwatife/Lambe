@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pay Later App</title>
+    <link rel="stylesheet" type="text/css" href="pay.css">
+  </head>
+  <body>
+    <div class="signup loginbox">
+      <img src="image/money 4.jpg" class="avatar">
+      <h1 style="color:white;">Borrow Money</h1>
+      <form>
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Enter Amount" id="inputText">
+          </div>
+          <div class="col">
+            <input type="submit" name="" value="Enter" onclick="displayEnteredText()">
+          </div>
+          </div>
+        </form>
+        <div class="display-6">
+          You are to pay back:
+        </div>
+        <div class="row">
+          <div class="col">
+            <div>
+              <input type="text" class="form-control" id="dis" disabled>
+            </div>
+          </div>
+        </div>
+        <div class="display-6">
+          You are to pay this amount monthly to pay off the money you borrowed:
+        </div>
+          <div class="row">
+            <div class="col">
+              <div>
+                <input type="text" class="form-control" id="diver" disabled>
+              </div>
+            </div>
+          </div>
+          <input type="submit" name="" value="Next" onclick="displayEnteredText()">
+          <script src="paylater.js" charset="utf-8"></script>
+  </body>
+</html>
